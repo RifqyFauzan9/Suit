@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game suit jawa</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+        <h1>Terimakasih sudah bermain...</h1>
+        <div class="btnGroup">
+            <button class="button" id="playBtn">Main lagi</button>
+            <button class="button" id="closeBtn">Keluar</button>
+        </div>
+    </div>
+    <script>
+        document.getElementById('playBtn').addEventListener('click', function () {
+            location.reload();
+        });
+        document.getElementById('closeBtn').addEventListener('click', function () {
+            window.close();
+        });
+    </script>
+</body>
+
+</html>
